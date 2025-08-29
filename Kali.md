@@ -43,4 +43,7 @@ O comando `vi nomedoarquivo` serve para criar ou editar arquivos no Linux.
   - `:wq!` → salva e sai (forçando, se necessário)
 
 ---
+Um endereço IP que começa com
+169.254 é um endereço IP link-local que pode ter duas funções principais: 
 
+    Indica uma falha na rede: Quando um dispositivo não consegue obter um endereço IP de um servidor DHCP (como o do seu router), ele atribui automaticamente um endereço 169.254.x.x para comunicação na rede local, mas não pode aceder à Internet.
