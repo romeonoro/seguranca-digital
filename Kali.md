@@ -26,6 +26,8 @@ cat dominios.lst
 
 > O comando cat concatena e exibe o conteúdo do arquivo no terminal.
 
+---
+
 ## 📝 Criando e editando arquivos com `vi`
 
 O comando `vi nomedoarquivo` serve para criar ou editar arquivos no Linux.  
