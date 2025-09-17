@@ -10,7 +10,7 @@ Ele **não é uma regra obrigatória**, mas sim uma **orientação**: os bots le
 ## 📌 Para que serve
 - **Controle de indexação**: evitar que páginas específicas apareçam em resultados de busca (ex: páginas de teste, duplicadas ou privadas).  
 - **Economia de recursos**: impedir que robôs acessem áreas pesadas ou irrelevantes, poupando banda e processamento do servidor.  
-- **Organização de SEO**: direcionar os buscadores para o conteúdo mais relevante.  
+- **Organização de SEO (Search Engine Optimization)**: direcionar os buscadores para o conteúdo mais relevante.  
 - **Segurança básica**: evitar exposição desnecessária de diretórios (embora não substitua medidas reais de segurança).
 
 ---
