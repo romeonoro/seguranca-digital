@@ -24,3 +24,20 @@
 - O que esta consulta irá retornar, de acordo com o Google Hacking? Site;com.br filetype:txt intext:senhas
 
 - Cite três formas de descobrir o sevidor de DNS de um serviço hospedado na WWWW:
+
+1- malware?
+software malicioso
+
+2 - processo conexão tcp e como pode ser usada para uma invasão?
+3 handshake, cliente servidor syn -> ack/syn <- ack ->
+estabelece uma conexão e não encerra
+
+3- deepfake?
+
+4 - ddns e como funciona? exemplo 
+camera de segurança, baba eletrônica
+
+6 - zona de dns e pq ocorre sua transferência?
+
+
+14 - host, dnslookup, whatsmyip, whois, dnsdumpster.com
