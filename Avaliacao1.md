@@ -3,6 +3,12 @@
 Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos comuns incluem roubo de dados, controle remoto, espionagem, criptografia de arquivos para resgate e degradação de serviços.
 
 - Descreva o processo de conexão TCP e como pode ser utilizada para uma invsasão?
+>  three-way handshake <br>
+> 1. SYN — o cliente envia um pacote SYN ao servidor pedindo conexão.
+> 2. SYN‑ACK — o servidor responde com SYN‑ACK (confirmação do SYN e pede sincronização).
+> 3. ACK — o cliente envia ACK final; a conexão fica estabelecida e começa a troca de dados. <br>
+
+> Um atacante pode usar conexões TCP legítimas para estabelecer canais de comunicação (por exemplo, um cliente malicioso que inicia uma sessão com um servidor comprometido para receber comandos), aproveitando o fato de que conexões estabelecidas passam por firewalls de forma diferente de tráfego não solicitado. Ataques como SYN flood exploram o próprio processo de handshake, enviando muitos SYNs sem completar o handshake para esgotar recursos do servidor (negação de serviço).
 
 - O que é um Deepfake?
 > É uma mídia sintética (vídeo, áudio, imagem) criada com IA que substitui ou altera a identidade de pessoas (por exemplo, trocar um rosto em um vídeo ou clonar uma voz). Pode ser usado para entretenimento legítimo, mas também para desinformação, fraude e difamação.
@@ -14,6 +20,11 @@ Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos com
 Defacers: atacantes que alteram o conteúdo de sites — normalmente substituindo a página inicial por uma mensagem, imagem ou propaganda. É um tipo de vandalismo digital voltado a sites/webservers.
 
 - Explique o que é zona de DNS e por que ocorre sua transferência?
+> Uma zona é um conjunto de registros, porção do espaço de nomes DNS para a qual um servidor DNS (autoritativo) é responsável. Numa zona estão registros como A, AAAA, MX, NS, TXT, etc. <br>
+Transferências de zona são realizadas para replicar os dados da zona do servidor primário (master) para servidores secundários (slave). Motivos:
+>  - redundância e disponibilidade (se o primário cair, secundários continuam respondendo);
+>  - balanceamento de carga;
+>  - backup e distribuição geográfica.
 
 - Como funciona o Algoritmo PageRank?
 > Mede a importância de páginas web com base na estrutura de links.
