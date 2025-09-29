@@ -16,6 +16,8 @@ Defacers: atacantes que alteram o conteúdo de sites — normalmente substituind
 - Explique o que é zona de DNS e por que ocorre sua transferência?
 
 - Como funciona o Algoritmo PageRank?
+> Mede a importância de páginas web com base na estrutura de links.
+<img width="4000" height="2878" alt="image" src="https://github.com/user-attachments/assets/432555ee-deb0-4a55-9035-23c0558b5b5a" />
 
 - Quando e onde surgiu o termo "Hacker"?
 > Surgiu nas décadas de 1950 e 1960, no Massachusetts Institute of Technology (MIT)
@@ -27,8 +29,10 @@ Defacers: atacantes que alteram o conteúdo de sites — normalmente substituind
 > O que diferencia um hacker ético de um crime é autorização legal e *contratual*.
 
 - Quando o servidor secundário de DNS é acionado?
+> Resumidamente, servidores secundários (slaves) são usados sempre que um resolvedor consultando a zona autoritativa escolher qualquer nameserver autoritativo disponível — se o primário (master) não responder, os resolvers podem consultar os secundários. Além disso, secundários servem requests normalmente (balanceamento/alta disponibilidade). Internamente, secundários obtêm/atualizam dados do primário via transferências de zona (AXFR/IXFR); se o primário estiver indisponível, o secundário continua respondendo com os dados que já tem até expirarem (TTL ou SOA expiration).
 
 - O que esta consulta irá retornar, de acordo com o Google Hacking? Site;com.br filetype:txt intext:senhas
+> Essa consulta procura por arquivos .txt em domínios .com.br que contenham a palavra "senhas" no texto.
 
 - Cite três formas de descobrir o sevidor de DNS de um serviço hospedado na WWWW:
 
