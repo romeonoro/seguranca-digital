@@ -14,6 +14,10 @@ Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos com
 > É uma mídia sintética (vídeo, áudio, imagem) criada com IA que substitui ou altera a identidade de pessoas (por exemplo, trocar um rosto em um vídeo ou clonar uma voz). Pode ser usado para entretenimento legítimo, mas também para desinformação, fraude e difamação.
 
 - O que significa DDNS e como ele funciona? Pode dar um exemplo para explicar.
+> DDNS (Dynamic DNS) é um serviço que permite associar um nome de domínio a um endereço IP que muda dinamicamente (por exemplo, IP doméstico fornecido por ISP). Em vez de usar um IP fixo, um cliente (software no roteador ou dispositivo) atualiza automaticamente o provedor de DDNS com o IP atual — o provedor atualiza o registro DNS para apontar para esse IP.
+
+> Exemplo prático:
+Você tem uma câmera de segurança em casa com IP público que muda com o provedor. Configura um serviço DDNS (ex.: minhacamera.ddns.exemplo). O roteador envia atualizações ao serviço DDNS sempre que o IP muda. Assim, você acessa a câmera por minhacamera.ddns.exemplo mesmo que o IP mude.
 
 - Qual a diferença de Phreakers e Defacers?
 > Phreakers: exploravam sistemas de telefonia para obter chamadas gratuitas, manipular centrais ou explorar vulnerabilidades da rede telefônica. <br>
@@ -21,7 +25,9 @@ Defacers: atacantes que alteram o conteúdo de sites — normalmente substituind
 
 - Explique o que é zona de DNS e por que ocorre sua transferência?
 > Uma zona é um conjunto de registros, porção do espaço de nomes DNS para a qual um servidor DNS (autoritativo) é responsável. Numa zona estão registros como A, AAAA, MX, NS, TXT, etc. <br>
-Transferências de zona são realizadas para replicar os dados da zona do servidor primário (master) para servidores secundários (slave). Motivos:
+Transferências de zona são realizadas para replicar os dados da zona do servidor primário (master) para servidores secundários (slave).
+
+> Motivos:
 >  - redundância e disponibilidade (se o primário cair, secundários continuam respondendo);
 >  - balanceamento de carga;
 >  - backup e distribuição geográfica.
@@ -47,14 +53,8 @@ Transferências de zona são realizadas para replicar os dados da zona do servid
 
 - Cite três formas de descobrir o sevidor de DNS de um serviço hospedado na WWWW:
 
+> 1. host -t ns exemplo.com ou dig NS exemplo.com — consulta direta aos registros NS autoritativos.
+> 2. whois exemplo.com — informações de registro podem apontar para provedores/servidores DNS (nem sempre mostra os nameservers, mas frequentemente sim).
+> 3. Ferramentas online/serviços: dnsdumpster.com, whatsmyip (ou whatsmydns.net) ou outras ferramentas de lookup que mostram os NS e registros DNS.
 
-2 - processo conexão tcp e como pode ser usada para uma invasão?
-3 handshake, cliente servidor syn -> ack/syn <- ack ->
-estabelece uma conexão e não encerra
-
-4 - ddns e como funciona? exemplo 
-camera de segurança, baba eletrônica
-
-6 - zona de dns e pq ocorre sua transferência?
-
-14 - host, dnslookup, whatsmyip, whois, dnsdumpster.com
+> (Alternativas de linha de comando: nslookup -type=ns exemplo.com, dig +short NS exemplo.com.)
