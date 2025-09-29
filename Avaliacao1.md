@@ -1,5 +1,5 @@
 - O que é um Malware?
-> É um software malicioso projetado para executar ações indesejadas ou danosas em sistemas computacionais.
+> É um software malicioso projetado para executar ações indesejadas ou danosas em sistemas computacionais.<br>
 Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos comuns incluem roubo de dados, controle remoto, espionagem, criptografia de arquivos para resgate e degradação de serviços.
 
 - Descreva o processo de conexão TCP e como pode ser utilizada para uma invsasão?
@@ -10,7 +10,7 @@ Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos com
 - O que significa DDNS e como ele funciona? Pode dar um exemplo para explicar.
 
 - Qual a diferença de Phreakers e Defacers?
-> Phreakers: exploravam sistemas de telefonia para obter chamadas gratuitas, manipular centrais ou explorar vulnerabilidades da rede telefônica.
+> Phreakers: exploravam sistemas de telefonia para obter chamadas gratuitas, manipular centrais ou explorar vulnerabilidades da rede telefônica. <br>
 Defacers: atacantes que alteram o conteúdo de sites — normalmente substituindo a página inicial por uma mensagem, imagem ou propaganda. É um tipo de vandalismo digital voltado a sites/webservers.
 
 - Explique o que é zona de DNS e por que ocorre sua transferência?
@@ -18,11 +18,13 @@ Defacers: atacantes que alteram o conteúdo de sites — normalmente substituind
 - Como funciona o Algoritmo PageRank?
 
 - Quando e onde surgiu o termo "Hacker"?
+> Surgiu nas décadas de 1950 e 1960, no Massachusetts Institute of Technology (MIT)
 
 - Como podemos verificar quais os servidore de DNS o nosso sistema operacional Linux está utilizando?
-> cat /etc/resolv.conf
+> cat /etc/resolv.conf — mostra servidores DNS configurados tradicionalmente.
 
 - O que garante que o trabalho de um Hacker ético, não seja considerado um crime?
+> O que diferencia um hacker ético de um crime é autorização legal e *contratual*.
 
 - Quando o servidor secundário de DNS é acionado?
 
@@ -30,19 +32,14 @@ Defacers: atacantes que alteram o conteúdo de sites — normalmente substituind
 
 - Cite três formas de descobrir o sevidor de DNS de um serviço hospedado na WWWW:
 
-1- malware?
-software malicioso
 
 2 - processo conexão tcp e como pode ser usada para uma invasão?
 3 handshake, cliente servidor syn -> ack/syn <- ack ->
 estabelece uma conexão e não encerra
 
-3- deepfake?
-
 4 - ddns e como funciona? exemplo 
 camera de segurança, baba eletrônica
 
 6 - zona de dns e pq ocorre sua transferência?
-
 
 14 - host, dnslookup, whatsmyip, whois, dnsdumpster.com
