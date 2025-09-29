@@ -1,12 +1,17 @@
 - O que é um Malware?
+> É um software malicioso projetado para executar ações indesejadas ou danosas em sistemas computacionais.
+Exemplos: vírus, worms, trojans, ransomware, spyware e adware. Os objetivos comuns incluem roubo de dados, controle remoto, espionagem, criptografia de arquivos para resgate e degradação de serviços.
 
 - Descreva o processo de conexão TCP e como pode ser utilizada para uma invsasão?
 
 - O que é um Deepfake?
+> É uma mídia sintética (vídeo, áudio, imagem) criada com IA que substitui ou altera a identidade de pessoas (por exemplo, trocar um rosto em um vídeo ou clonar uma voz). Pode ser usado para entretenimento legítimo, mas também para desinformação, fraude e difamação.
 
 - O que significa DDNS e como ele funciona? Pode dar um exemplo para explicar.
 
 - Qual a diferença de Phreakers e Defacers?
+> Phreakers: exploravam sistemas de telefonia para obter chamadas gratuitas, manipular centrais ou explorar vulnerabilidades da rede telefônica.
+Defacers: atacantes que alteram o conteúdo de sites — normalmente substituindo a página inicial por uma mensagem, imagem ou propaganda. É um tipo de vandalismo digital voltado a sites/webservers.
 
 - Explique o que é zona de DNS e por que ocorre sua transferência?
 
